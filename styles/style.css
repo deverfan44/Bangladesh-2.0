@@ -1,0 +1,91 @@
+/* Add Google font link */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Fira Sans", serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", serif;
+}
+
+/* Shared Css Style  */
+.fixed_container{
+    width: 1280px;
+    margin: auto;
+}
+.btn_color{
+    background-color: #006A50;
+}
+
+
+
+
+
+/* Header Section CSS  */
+header {
+    padding: 10px 0px;
+}
+header .head-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .head-content h1{}
+header .head-content .head_btn{}
+header .head-content .head_btn button {
+    display: inline-block;
+    padding: 12px 31px;
+    color: #006A50;
+    font-weight: 500;
+    font-size: 18px;
+    background: none;
+    border: 1px solid #006A50;
+    border-radius: 5px;
+}
+
+
+
+
+/* Hero Section CSS */
+.hero_section{}
+.hero_section .hero_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #C6E4D6;
+    border-radius: 11px;
+    /* padding: 57px 0px; */
+    height: 560px;
+}
+.hero_content .hero_left {
+    padding: 0px 40px;
+}
+.hero_content .hero_left p {
+    color: #5e5858;
+    font-size: 24px;
+}
+.hero_content .hero_left h1 {
+    font-size: 56px;
+    margin: 20px 0px;
+}
+.hero_content .hero_left .hero_btn{}
+.hero_content .hero_left .hero_btn button {
+    color: white;
+    border: none;
+    padding: 15px 28px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    /* margin-top: 20px; */
+}
+.hero_content .hero {
+    flex-basis: 50%;
+}
+.hero_content .hero_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero_content .hero_right img{}
