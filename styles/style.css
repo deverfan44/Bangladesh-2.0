@@ -89,3 +89,134 @@ header .head-content .head_btn button {
     align-items: center;
 }
 .hero_content .hero_right img{}
+
+
+
+
+
+/* Pilar Section CSS */
+.pilar_section {
+    margin: 50px 0px;
+}
+.pilar_section .pilar_content{}
+.pilar_section .pilar_content h1 {
+    /* text-align: center; */
+    font-size: 40px;
+    margin: 20px 0px 40px;
+}
+.pilar_section .pilar_content .pilar_cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.pilar_cards .pilar_box {
+    flex-basis: 25%;
+    border: 1px solid #2626264a;
+    padding: 30px 17px;
+    border-radius: 9px;
+}
+.pilar_cards .pilar_box .pilar_img{}
+.pilar_cards .pilar_box .pilar_img img{}
+.pilar_cards .pilar_box .pilar_box_text{}
+.pilar_cards .pilar_box .pilar_box_text h3 {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.pilar_cards .pilar_box .pilar_box_text p {
+    color: #0E0E0E;
+}
+
+
+
+
+
+/* Vision Section CSS  */
+.vision_section{}
+.vision_section .vision_titel{}
+.vision_section .vision_titel h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.vision_section .vision_titel p {
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision_cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 25px;
+    margin: 50px 0px;
+}
+.vision_cards .vision_box {
+    flex-basis: 33.33%;
+    padding: 30px 23px 25px;
+    background: rgba(84, 144, 245, 0.2);
+    border-radius: 10px;
+}
+.vision_cards .vision_box .vision_img{}
+.vision_cards .vision_box .vision_img img{}
+.vision_cards .vision_box .vision_box_text {
+    height: 105px;
+}
+.vision_cards .vision_box .vision_box_text h3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.vision_cards .vision_box .vision_box_text p {
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision_cards .vision_btn {
+    padding: 19px 0px;
+}
+.vision_cards .vision_btn button {
+    background: rgba(84, 144, 245, 1);
+    padding: 8px 19px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    display: inline-block;
+}
+.vi_btn_2{
+    background-color: rgba(9, 161, 92, 1) !important;
+}
+.vi_btn_3{
+    background-color: rgba(255, 194, 57, 1) !important;
+}
+.vi_box_3{
+    background-color: rgba(247, 235, 207, 1) !important;
+}
+
+
+
+
+/* Yonus Section CSS  */
+.yonus_section {
+    margin: 50px 0px;
+}
+.yonus_section .yonus_speace {
+    padding: 27px;
+    border: 1px solid rgba(14, 14, 14, 0.3);
+    border-radius: 10px;
+    position: relative;
+}
+.yonus_section .yonus_speace p{}
+.yonus_section .yonus_speace .yp_1 {
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 1.6rem;
+    margin-top: 25px;
+}
+.yonus_section .yonus_speace .yp_2 {
+    color: rgba(14, 14, 14, 0.6);
+}
+.yonus_section .yonus_speace h3 {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 14px 0px 2px;
+}
+
+.yonus_section .yonus_speace img{
+    position: absolute;
+    z-index: -1;
+}
