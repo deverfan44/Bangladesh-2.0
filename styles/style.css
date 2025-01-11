@@ -345,3 +345,60 @@ header .head-content .head_btn button {
     border: none;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
 }
+
+
+
+
+/* Footer CSS  */
+/* Newslatter Section CSS */
+footer{}
+.newslatter_section{
+    margin-bottom: 50px;
+}
+.newslatter_content {
+    background: rgba(198, 228, 214, 1);
+    text-align: center;
+    padding: 90px 0px;
+    border-radius: 15px;
+}
+.newslatter_content .newslatter_text {
+    width: 60%;
+    margin: auto;
+}
+.newslatter_content .newslatter_text h1 {
+    font-size: 40px;
+    /* margin-bottom: 20px; */
+    line-height: 1.6rem;
+}
+.newslatter_content .newslatter_text p {
+    color: rgba(14, 14, 14, 0.7);
+    margin: 30px 0px;
+}
+.newslatter_content .newslatter_form {
+    margin-top: 27px;
+    width: 60%;
+    margin: auto;
+}
+.newslatter_content .newslatter_form form{}
+.newslatter_content .newslatter_form form input{}
+.newslatter_content .newslatter_form form .subscribe_div {
+    display: flex;
+    height: 60px;
+    margin: 20px 0px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.newslatter_content .newslatter_form form .subscribe_div input {
+    flex-basis: 80%;
+    font-size: 20px;
+    padding: 20px;
+    border: navajowhite;
+    outline: 0;
+}
+.newslatter_content .newslatter_form form .subscribe_div button {
+    flex-basis: 20%;
+    border-radius: 0 !important;
+}
+.newslatter_content .newslatter_form p{
+    color: rgba(14, 14, 14, 0.7);
+}
