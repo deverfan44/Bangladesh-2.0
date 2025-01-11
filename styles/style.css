@@ -27,6 +27,15 @@ body{
     font-size: 17px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.sm_btn:hover {
+    background-color: white;
+    color: #006A50;
+    border: 1px solid rgba(82, 80, 80, 0.205);
 }
 
 
@@ -34,7 +43,7 @@ body{
 
 /* Header Section CSS  */
 header {
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 header .head-content {
     display: flex;
@@ -42,8 +51,6 @@ header .head-content {
     justify-content: space-between;
     align-items: center;
 }
-header .head-content h1{}
-header .head-content .head_btn{}
 header .head-content .head_btn button {
     display: inline-block;
     padding: 12px 31px;
@@ -52,14 +59,13 @@ header .head-content .head_btn button {
     font-size: 18px;
     background: none;
     border: 1px solid #006A50;
-    border-radius: 5px;
+}
+header .head-content .head_btn button:hover{
+    background-color: #006A50;
+    color: white;
 }
 
-
-
-
 /* Hero Section CSS */
-.hero_section{}
 .hero_section .hero_content {
     display: flex;
     justify-content: space-between;
@@ -80,7 +86,6 @@ header .head-content .head_btn button {
     font-size: 56px;
     margin: 20px 0px;
 }
-.hero_content .hero_left .hero_btn{}
 .hero_content .hero_left .hero_btn button {
     font-size: 19px;
     font-weight: 500;
@@ -93,17 +98,12 @@ header .head-content .head_btn button {
     justify-content: center;
     align-items: center;
 }
-.hero_content .hero_right img{}
-
-
-
 
 
 /* Pilar Section CSS */
 .pilar_section {
     margin: 50px 0px;
 }
-.pilar_section .pilar_content{}
 .pilar_section .pilar_content h1 {
     /* text-align: center; */
     font-size: 40px;
@@ -120,9 +120,6 @@ header .head-content .head_btn button {
     padding: 30px 17px;
     border-radius: 9px;
 }
-.pilar_cards .pilar_box .pilar_img{}
-.pilar_cards .pilar_box .pilar_img img{}
-.pilar_cards .pilar_box .pilar_box_text{}
 .pilar_cards .pilar_box .pilar_box_text h3 {
     font-size: 20px;
     margin: 10px 0px;
@@ -134,11 +131,7 @@ header .head-content .head_btn button {
 
 
 
-
-
 /* Vision Section CSS  */
-.vision_section{}
-.vision_section .vision_titel{}
 .vision_section .vision_titel h1 {
     font-size: 40px;
     margin-bottom: 15px;
@@ -159,8 +152,6 @@ header .head-content .head_btn button {
     background: rgba(84, 144, 245, 0.2);
     border-radius: 10px;
 }
-.vision_cards .vision_box .vision_img{}
-.vision_cards .vision_box .vision_img img{}
 .vision_cards .vision_box .vision_box_text {
     height: 130px;
 }
@@ -190,8 +181,6 @@ header .head-content .head_btn button {
 }
 
 
-
-
 /* Yonus Section CSS  */
 .yonus_section {
     margin: 50px 0px;
@@ -202,7 +191,6 @@ header .head-content .head_btn button {
     border-radius: 10px;
     position: relative;
 }
-.yonus_section .yonus_speace p{}
 .yonus_section .yonus_speace .yp_1 {
     color: rgba(14, 14, 14, 0.8);
     line-height: 1.6rem;
@@ -216,12 +204,10 @@ header .head-content .head_btn button {
     color: rgba(14, 14, 14, 0.8);
     margin: 14px 0px 2px;
 }
-
 .yonus_section .yonus_speace img{
     position: absolute;
     z-index: -1;
 }
-
 
 
 /* News Section CSS */
@@ -241,7 +227,6 @@ header .head-content .head_btn button {
     line-height: 1.6rem;
     margin-bottom: 20px;
 }
-.news_cards {}
 .news_cards .news_box {
     display: flex;
     flex-wrap: wrap;
@@ -269,7 +254,6 @@ header .head-content .head_btn button {
 .news_cards .news_box .news_box_text .alzira_img {
     margin: 10px 0px 12px;
 }
-.news_cards .news_box .news_box_text .alzira_img img{}
 .news_time {
     color: rgba(14, 14, 14, 0.7);
 }
@@ -277,26 +261,20 @@ header .head-content .head_btn button {
     display: inline-block;
     margin-right: 12px;
 }
-.news_time time{}
-.news_box .news_box_text{}
 .news_box .news_box_text p {
     color: rgba(14, 14, 14, 0.7);
     margin: 11px 0px 17px;
     line-height: 1.6rem;
 }
-
-
 .news_box .new_style_box {
     padding: 0px 90px 0px 0px !important;
 }
 
 
 
-
 .donate_section {
     margin: 80px 0px;
 }
-.donate_section .donate_content{}
 .donate_content .donate_title {
     text-align: center;
 }
@@ -320,6 +298,7 @@ header .head-content .head_btn button {
     border: 1px solid rgba(14, 14, 14, 0.4);
     border-radius: 11px;
     text-align: center;
+    overflow: hidden;
 }
 .donate_content .donate_amount .donate_tk span {
     display: inline-block;
@@ -327,6 +306,11 @@ header .head-content .head_btn button {
     font-weight: 500;
     padding: 32px 36px;
     color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+}
+.donate_content .donate_amount .donate_tk span:hover{
+    background-color: #006A50;
+    color: wheat;
 }
 
 .donate_form {
@@ -351,7 +335,6 @@ header .head-content .head_btn button {
 
 /* Footer CSS  */
 /* Newslatter Section CSS */
-footer{}
 .newslatter_section{
     margin-bottom: 50px;
 }
@@ -379,8 +362,6 @@ footer{}
     width: 60%;
     margin: auto;
 }
-.newslatter_content .newslatter_form form{}
-.newslatter_content .newslatter_form form input{}
 .newslatter_content .newslatter_form form .subscribe_div {
     display: flex;
     height: 60px;
@@ -399,11 +380,13 @@ footer{}
     flex-basis: 20%;
     border-radius: 0 !important;
 }
+.newslatter_content .newslatter_form form .subscribe_div button:hover{
+    background-color: #1eac88;
+    color: yellow;
+}
 .newslatter_content .newslatter_form p{
     color: rgba(14, 14, 14, 0.7);
 }
-
-
 
 
 
@@ -411,7 +394,6 @@ footer{}
 .opinion_section {
     margin: 77px 0px;
 }
-.opinion_title{}
 .opinion_title  h1 {
     font-size: 31px;
     margin-left: 11px;
@@ -424,27 +406,27 @@ footer{}
     width: 100%;
     border-collapse: collapse;
 }
-.opinion_table table thead{}
-.opinion_table table thead tr{}
 .opinion_table table thead tr th {
     padding: 20px 0px 20px 6px;
     background: rgba(198, 228, 214, 1);
     text-align: left;
     font-size: 20px;
 }
-.opinion_table table tbody{}
-.opinion_table table tbody tr{}
 .opinion_table table tbody tr td {
     padding: 14px 10px;
     color: rgba(14, 14, 14, 1);
     border: 1px solid rgb(14 14 14 / 8%);
 }
-.opinion_table table tbody tr td p{}
 .opinion_table table tbody tr td button {
     padding: 13px 42px;
     font-size: 16px;
     border-radius: 6px;
     background-color: rgba(198, 228, 214, 1);
+    cursor: pointer;
+}
+.opinion_table table tbody tr td button:hover{
+    background-color: #006A50;
+    color: white;
 }
 .center_btn{
     text-align: center;
@@ -473,7 +455,6 @@ footer{}
     justify-content: center;
     column-gap: 15px;
 }
-.finish_section .finish_icon .icon_div{}
 .finish_section .finish_icon .icon_div img {
     margin-bottom: -4px;
 }
