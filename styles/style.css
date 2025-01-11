@@ -402,3 +402,78 @@ footer{}
 .newslatter_content .newslatter_form p{
     color: rgba(14, 14, 14, 0.7);
 }
+
+
+
+
+
+/* Opinion Section  */
+.opinion_section {
+    margin: 77px 0px;
+}
+.opinion_title{}
+.opinion_title  h1 {
+    font-size: 31px;
+    margin-left: 11px;
+}
+.opinion_table {
+    padding: 0px 30px;
+    margin-top: 33px;
+}
+.opinion_table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.opinion_table table thead{}
+.opinion_table table thead tr{}
+.opinion_table table thead tr th {
+    padding: 20px 0px 20px 6px;
+    background: rgba(198, 228, 214, 1);
+    text-align: left;
+    font-size: 20px;
+}
+.opinion_table table tbody{}
+.opinion_table table tbody tr{}
+.opinion_table table tbody tr td {
+    padding: 14px 10px;
+    color: rgba(14, 14, 14, 1);
+    border: 1px solid rgb(14 14 14 / 8%);
+}
+.opinion_table table tbody tr td p{}
+.opinion_table table tbody tr td button {
+    padding: 13px 42px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: rgba(198, 228, 214, 1);
+}
+.center_btn{
+    text-align: center;
+}
+
+
+
+
+/* .Finish Section  */
+.finish_section {
+    margin: 76px 0px 41px;
+}
+.finish_section .finish_title {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.1);
+    margin-bottom: 22px;
+}
+.finish_section .finish_title h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.finish_section .finish_icon {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+.finish_section .finish_icon .icon_div{}
+.finish_section .finish_icon .icon_div img {
+    margin-bottom: -4px;
+}
