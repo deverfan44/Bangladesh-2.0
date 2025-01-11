@@ -289,3 +289,59 @@ header .head-content .head_btn button {
 .news_box .new_style_box {
     padding: 0px 90px 0px 0px !important;
 }
+
+
+
+
+.donate_section {
+    margin: 80px 0px;
+}
+.donate_section .donate_content{}
+.donate_content .donate_title {
+    text-align: center;
+}
+.donate_content .donate_title h1 {
+    font-size: 40px;
+    color: rgba(14, 14, 14, .9);
+    margin-bottom: 15px;
+}
+.donate_content .donate_title p {
+    color: rgba(14, 14, 14, 0.7);
+    padding: 0px 93px;
+    line-height: 1.6rem;
+}
+.donate_content .donate_amount {
+    width: 90%;
+    margin: 30px auto 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.donate_content .donate_amount .donate_tk {
+    border: 1px solid rgba(14, 14, 14, 0.4);
+    border-radius: 11px;
+    text-align: center;
+}
+.donate_content .donate_amount .donate_tk span {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 32px 36px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.donate_form {
+    text-align: center;
+    width: 73%;
+    margin: 50px auto 0px;
+}
+.donate_form form {
+    margin-bottom: 20px;
+}
+.donate_form form input {
+    text-align: center;
+    width: 100%;
+    height: 63px;
+    font-size: 24px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
