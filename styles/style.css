@@ -64,6 +64,7 @@ header .head-content .head_btn button:hover{
     background-color: #006A50;
     color: white;
 }
+
 /* Hero Section CSS */
 .hero_section .hero_content {
     display: flex;
@@ -178,7 +179,6 @@ header .head-content .head_btn button:hover{
 }
 
 
-
 /* Yonus Section CSS  */
 .yonus_section {
     margin: 50px 0px;
@@ -249,7 +249,6 @@ header .head-content .head_btn button:hover{
     text-align: center;
 }
 
-
 /* News Section CSS */
 .news_section {
     margin: 50px 0px;
@@ -309,8 +308,6 @@ header .head-content .head_btn button:hover{
 .news_box .new_style_box {
     padding: 0px 90px 0px 0px !important;
 }
-
-
 
 /* Donate Section CSS  */
 .donate_section {
@@ -455,6 +452,69 @@ header .head-content .head_btn button:hover{
     display: none;
 }
 
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .fixed_container{
+        width: 90%;
+    }
+
+
+    /* Head Media  */
+    .hero_section .hero_content {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0px;
+        row-gap: 25px;
+    }
+    .hero_right img{
+        width: 90%;
+    }
+    
+    .pilar_cards, .vision_cards {
+        flex-wrap: wrap;
+        column-gap: 0px !important;
+        row-gap: 20px;
+        justify-content: space-around !important;
+    }
+    .pilar_cards .pilar_box, .vision_cards .vision_box {
+        flex-basis: 45%;
+    }
+    .vision_cards .vision_box .vision_box_text {
+        height: auto;
+    }
+    .opinion_table table tbody tr td button {
+        padding: 13px 0px;
+        width: 141px;
+    }
+    .opinion_table table thead tr th {
+        font-size: 15px;
+    }
+    .news_cards .news_box {
+        flex-direction: column;
+    }
+    .news_cards .news_box .news_img img {
+        width: 100% !important;
+    }
+    .news_cards .news_box .news_box_text {
+        padding: 0px 10px 0px;
+    }
+    .diff_news_box {
+        flex-direction: column-reverse !important;
+    }
+    .news_box .new_style_box {
+        padding: 0px 10px 0px !important;
+    }
+    .donate_content .donate_title p {
+        padding: 0px 40px;
+    }
+    .donate_content .donate_amount {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .donate_content .donate_amount .donate_tk {
+        flex-basis: 45%;
+    }
+}
 
 
 
