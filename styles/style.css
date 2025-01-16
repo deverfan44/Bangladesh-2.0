@@ -64,7 +64,6 @@ header .head-content .head_btn button:hover{
     background-color: #006A50;
     color: white;
 }
-
 /* Hero Section CSS */
 .hero_section .hero_content {
     display: flex;
@@ -99,7 +98,6 @@ header .head-content .head_btn button:hover{
     align-items: center;
 }
 
-
 /* Pilar Section CSS */
 .pilar_section {
     margin: 50px 0px;
@@ -128,7 +126,6 @@ header .head-content .head_btn button:hover{
     color: rgba(14, 14, 14, 0.7);
     line-height: 1.6rem;
 }
-
 
 
 /* Vision Section CSS  */
@@ -181,6 +178,7 @@ header .head-content .head_btn button:hover{
 }
 
 
+
 /* Yonus Section CSS  */
 .yonus_section {
     margin: 50px 0px;
@@ -207,6 +205,48 @@ header .head-content .head_btn button:hover{
 .yonus_section .yonus_speace img{
     position: absolute;
     z-index: -1;
+}
+
+/* Opinion Section  */
+.opinion_section {
+    margin: 77px 0px;
+}
+.opinion_title  h1 {
+    font-size: 31px;
+    margin-left: 11px;
+}
+.opinion_table {
+    padding: 0px 30px;
+    margin-top: 33px;
+}
+.opinion_table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.opinion_table table thead tr th {
+    padding: 20px 0px 20px 6px;
+    background: rgba(198, 228, 214, 1);
+    text-align: left;
+    font-size: 20px;
+}
+.opinion_table table tbody tr td {
+    padding: 14px 10px;
+    color: rgba(14, 14, 14, 1);
+    border: 1px solid rgb(14 14 14 / 8%);
+}
+.opinion_table table tbody tr td button {
+    padding: 13px 42px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: rgba(198, 228, 214, 1);
+    cursor: pointer;
+}
+.opinion_table table tbody tr td button:hover{
+    background-color: #006A50;
+    color: white;
+}
+.center_btn{
+    text-align: center;
 }
 
 
@@ -272,6 +312,7 @@ header .head-content .head_btn button:hover{
 
 
 
+/* Donate Section CSS  */
 .donate_section {
     margin: 80px 0px;
 }
@@ -331,8 +372,6 @@ header .head-content .head_btn button:hover{
 }
 
 
-
-
 /* Footer CSS  */
 /* Newslatter Section CSS */
 .newslatter_section{
@@ -388,53 +427,6 @@ header .head-content .head_btn button:hover{
     color: rgba(14, 14, 14, 0.7);
 }
 
-
-
-/* Opinion Section  */
-.opinion_section {
-    margin: 77px 0px;
-}
-.opinion_title  h1 {
-    font-size: 31px;
-    margin-left: 11px;
-}
-.opinion_table {
-    padding: 0px 30px;
-    margin-top: 33px;
-}
-.opinion_table table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.opinion_table table thead tr th {
-    padding: 20px 0px 20px 6px;
-    background: rgba(198, 228, 214, 1);
-    text-align: left;
-    font-size: 20px;
-}
-.opinion_table table tbody tr td {
-    padding: 14px 10px;
-    color: rgba(14, 14, 14, 1);
-    border: 1px solid rgb(14 14 14 / 8%);
-}
-.opinion_table table tbody tr td button {
-    padding: 13px 42px;
-    font-size: 16px;
-    border-radius: 6px;
-    background-color: rgba(198, 228, 214, 1);
-    cursor: pointer;
-}
-.opinion_table table tbody tr td button:hover{
-    background-color: #006A50;
-    color: white;
-}
-.center_btn{
-    text-align: center;
-}
-
-
-
-
 /* .Finish Section  */
 .finish_section {
     margin: 76px 0px 41px;
@@ -457,4 +449,126 @@ header .head-content .head_btn button:hover{
 }
 .finish_section .finish_icon .icon_div img {
     margin-bottom: -4px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    /* Same Media */
+    .hero_content, .pilar_cards, .vision_cards, .news_cards .news_box, .donate_content .donate_amount {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .fixed_container{
+        width: 90%;
+        margin: auto;
+    }
+    /* Head Media */
+    .head-content h1{
+        font-size: 25px;
+    }
+    .head_btn button, .hero_btn button  {
+        padding: 9px 21px !important;
+        font-size: 17px !important;
+    }
+    
+    /* Hero Media  */
+    .hero_content {
+        height: auto !important;
+        padding: 30px 0px;
+    }
+    .hero_content .hero_left {
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .hero_content .hero_left h1{
+        font-size: 34px;
+        line-height: 2.8rem;
+    }
+    .hero_right img {
+        width: 90%;
+    }
+
+    /* Pilar Media  */
+    .pilar_section .pilar_content h1, .vision_titel h1  {
+        text-align: center;
+        font-size: 32px !important;
+    }
+    .vision_section .vision_titel p, .yonus_section .yonus_speace .yp_1,.news_box_text p {
+        text-align: justify;
+    }
+
+    /* News Media  */
+    .news_cards .news_box .news_img {
+        flex-basis: 100%;
+    }
+    .news_cards .news_box .news_img img {
+        width: 100%;
+    }
+    .news_cards .news_box .news_box_text h1 {
+        font-size: 24px;
+    }
+    .news_cards .news_box .news_box_text {
+        flex-basis: 100%;
+        padding: 0px 10px 0px;
+    }
+    .news_box .new_style_box {
+        padding: 0px 10px 0px !important;
+    }
+    .diff_news_box{
+        flex-direction: column-reverse !important;
+    }
+
+    /* Option Media  */
+    .opinion_table {
+        padding: 0px 0px;
+    }
+    .opinion_table table tbody tr td button {
+        padding: 11px 0px;
+        display: block;
+        width: 111px;
+        font-size: 13px;
+    }
+
+    /* Donate Media  */
+    .donate_content .donate_amount {
+        align-items: center;
+    }
+    .donate_content .donate_title p {
+        padding: 0px 0px;
+    }
+    .donate_form form input::placeholder {
+        font-size: 18px;
+    }
+
+    /* Newslatter Media  */
+    .newslatter_content .newslatter_text, .newslatter_form {
+        width: 100% !important;
+        padding: 0px 10px !important;
+    }
+    .newslatter_content .newslatter_text h1 {
+        font-size: 28px;
+    }
+    .newslatter_content .newslatter_form form .subscribe_div {
+        flex-direction: column;
+        row-gap: 10px;
+        height: auto;
+        border-radius: 0px;
+    }
+    .newslatter_content .newslatter_form form .subscribe_div input::placeholder {
+        font-size: 15px;
+        text-align: center;
+    }
+    .newslatter_content .newslatter_form form .subscribe_div input {
+        padding: 14px;
+        border-radius: 5px;
+    }
+    .newslatter_content .newslatter_form form .subscribe_div button {
+        border-radius: 5px !important;
+    }
 }
